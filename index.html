@@ -1,20 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Learning Platform PWA"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <title>Learning Platform</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#035642">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="stylesheet" href="styles.css">
+    <title>Course Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background: linear-gradient(135deg, #6E85FF, #A3C7F9);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .welcome-section p {
+            margin: 0;
+            font-size: 1.2em;
+        }
+
+        .welcome-section h1 {
+            margin: 5px 0;
+            font-size: 2em;
+        }
+
+        .placement-banner {
+            background: #2D2D2D;
+            color: white;
+            padding: 15px;
+            margin: 20px auto;
+            border-radius: 10px;
+            text-align: left;
+            max-width: 90%;
+        }
+
+        .placement-banner h2 {
+            margin: 0 0 10px 0;
+        }
+
+        .upgrade-btn {
+            background-color: #FF6B6B;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .course-category h3 {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        .courses {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .course {
+            background: #F5F5F5;
+            padding: 10px;
+            border-radius: 5px;
+            flex: 1;
+            text-align: center;
+            min-width: 120px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .career-track .track {
+            background: #6E85FF;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 10px 0;
+            text-align: center;
+        }
+
+        .lifetime-access {
+            background: #FFF5E1;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .buy-now-btn {
+            background-color: #FF6B6B;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #F0F0F0;
+            font-size: 1.2em;
+            color: #444;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="welcome-section">
+            <p>Hello 👋</p>
+            <h1>Prashant Kumar</h1>
+        </div>
+        <div class="placement-banner">
+            <h2>Worried about placements?</h2>
+            <p>Get hired by 1000+ companies with our PRO Courses in Content, Design & Marketing!</p>
+            <button class="upgrade-btn">Upgrade Now</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="certification-courses">
+            <h2>Certification Courses</h2>
+            <div class="course-category">
+                <h3>Business Courses</h3>
+                <div class="courses">
+                    <div class="course">Digital Marketing</div>
+                    <div class="course">Entrepreneurship</div>
+                    <div class="course">Management</div>
+                </div>
+            </div>
+            <div class="course-category">
+                <h3>Creative Courses</h3>
+                <div class="courses">
+                    <div class="course">Social Media Content Creation</div>
+                    <div class="course">Creative Writing</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="career-tracks">
+            <h2>Hottest Careers 🔥</h2>
+            <div class="career-track">
+                <div class="track">Tech Kickstarter</div>
+                <div class="track">Marketing Kickstarter</div>
+            </div>
+        </section>
+
+        <section class="free-courses">
+            <h2>Free Micro Courses</h2>
+            <div class="courses">
+                <div class="course">Getting Job Ready</div>
+                <div class="course">Intro to Programming</div>
+            </div>
+        </section>
+
+        <section class="lifetime-access">
+            <h2>Unlock Lifetime Access</h2>
+            <p>Complete access to all 28 courses by over 200+ experts.</p>
+            <button class="buy-now-btn">Buy now at ₹7999</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Follow Your Passion ❤️</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
 </html>
