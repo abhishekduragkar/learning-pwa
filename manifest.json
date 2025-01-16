@@ -1,0 +1,22 @@
+{
+    "name": "Course Platform",
+    "short_name": "Courses",
+    "description": "A platform to explore and enroll in certification and micro courses.",
+    "start_url": "https://abhishekduragkar.github.io/learning-pwa/",
+    "display": "standalone",
+    "background_color": "#FFFFFF",
+    "theme_color": "#035642",
+    "icons": [
+      {
+        "src": "icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  
