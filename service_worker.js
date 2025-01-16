@@ -1,11 +1,11 @@
 const CACHE_NAME = "course-platform-cache-v1";
 const urlsToCache = [
-  "/learning-pwa/index.html",
-  "/learning-pwa/styles.css",
-  "/learning-pwa/app.js",
-  "/learning-pwa/manifest.json",
-  "/learning-pwa/icon-192x192.png",
-  "/learning-pwa/icon-512x512.png"
+  "/index.html",
+  "/styles.css",
+  "/app.js",
+  "/manifest.json",
+  "/icon-192x192.png",
+  "/icon-512x512.png"
 ];
 
 // Install event
