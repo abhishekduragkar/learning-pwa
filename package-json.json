@@ -1,0 +1,17 @@
+{
+  "name": "learning-pwa",
+  "homepage": "https://YOUR_GITHUB_USERNAME.github.io/REPO_NAME",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    // ... your existing dependencies
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  }
+}
